@@ -18,3 +18,6 @@ curl -X PUT -d 'id=1&tenantid=1&objectforrentid=2&firstday="2022-09-23 00:00:00"
 
 Create a new reservation:
 curl -X POST -d 'tenantid=1&objectforrentid=2&firstday="2022-10-23 00:00"&lastday="2022-10-25 00:00"' http://localhost:8081/createreservation
+
+# Reports
+File reports.sql contains two statements which are reports for example two cases.
